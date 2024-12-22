@@ -1,0 +1,6 @@
+-sname sync_api_prod
+
+-setcookie sync_api_prod_cookie
+
++K true
++A30

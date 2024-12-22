@@ -1,0 +1,32 @@
+{application, sync_api,
+  [{description, "sync_api node"},
+   {vsn, "0.1.0"},
+   {registered, []},
+   {mod, {sync_api_app, []}},
+   {env,[]},
+   {modules, []},
+   {maintainers, []},
+   {licenses, ["Apache 2.0"]},
+   {links, []},
+   {applications, [
+    kernel,
+    stdlib,
+    sasl,
+    asn1,
+    syntax_tools,
+    %%runtime_tools,%% observer
+    %%wx,           %% observer
+    %%observer,     %% observer
+    crypto,
+    public_key,
+    compiler,
+    goldrush,
+    lager,
+    inets,
+    ssl,
+    jsx,
+    ranch,
+    cowlib,
+    cowboy
+   ]}
+ ]}.
